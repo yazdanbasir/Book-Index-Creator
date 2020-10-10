@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ExperimentController
+comment0.text=\n\ Runs\ the\ experiments\ and\ outputs\ the\ average\ time\ taken\ to\ build\ an\ index\ using\ the\ 3\ different\ data\ structures\n\ This\ space\ was\ also\ used\ to\ perform\ each\ experiment\ and\ collect\ the\ data\ used\ in\ the\ graphs.\n\n\ @author\ Yazdan\ Basir\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=file
+comment2.target=void\ timeList(java.lang.String)
+comment2.text=\n\ Method\ used\ to\ time\ the\ methods\ in\ ListIndex\n\ \n\ @param\ file\ String\n
+comment3.params=file
+comment3.target=void\ timeTree(java.lang.String)
+comment3.text=\n\ Method\ used\ to\ time\ the\ methods\ in\ TreeIndex\n\ \n\ @param\ file\ String\n
+comment4.params=file
+comment4.target=void\ timeHash(java.lang.String)
+comment4.text=\n\ Methods\ used\ to\ time\ the\ methods\ in\ HashIndex\n\ Prints\ the\ average\ time\ taken\n\ \n\ @param\ file\ String\n
+numComments=5

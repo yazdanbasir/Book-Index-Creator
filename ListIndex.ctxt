@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ListIndex
+comment0.text=\n\ Creates\ an\ index\ of\ words\ using\ an\ ArrayList\ as\ the\ prominent\ data\ structure\n\ Overrides\ the\ createOutputFile()\ and\ addEntry()\ methods\n\ Uses\ the\ readFile()\ method\ from\ the\ abstract\ class\n\ \n\ @author\ Yazdan\ Basir\n
+comment1.params=
+comment1.target=ListIndex()
+comment1.text=\n\ Constructor\ for\ the\ ListIndex\ class\n
+comment2.params=
+comment2.target=void\ createOutputFile()
+comment2.text=\n\ Creates\ the\ output\ file\n\ Writes\ each\ entry\ in\ the\ ArrayList\ to\ the\ file\n
+comment3.params=w\ line
+comment3.target=boolean\ addEntry(java.lang.String,\ java.lang.Integer)
+comment3.text=\n\ First\ checks\ if\ the\ word\ is\ valid\ or\ not\ (by\ checking\ if\ it's\ in\ the\ provided\ dictionary)\n\ Adds\ the\ word\ to\ the\ ArrayList\ then\ -\ creates\ a\ new\ entry\ if\ not\ present\ already\n
+comment4.params=w
+comment4.target=int\ find(java.lang.String)
+comment4.text=\n\ BinarySearch\ helper\ method\ for\ addEntry()\n\ Returns\ the\ index\ where\ the\ word\ is\ in\ the\ ArrayList\n\ Returns\ a\ negative\ index\ if\ not\ present\n
+numComments=5

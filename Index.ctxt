@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Index
+comment0.text=\n\ Abstract\ class\ Index\ -\ describes\ the\ methods\ to\ be\ used\ by\ each\ index\n\ Every\ index\ has\ its\ own\ createOutputFile()\ and\ addEntry()\ method\n\ readFile(),\ createDictionary(),\ isWordInDictionary()\ are\ implemented\ here\ as\ they\ are\ used\ without\ modification\ across\ all\ 3\ indexes\n\n\ @author\ Yazdan\ Basir\n
+comment1.params=
+comment1.target=void\ createOutputFile()
+comment1.text=\n\ Writes\ all\ the\ words\ and\ their\ sets\ to\ a\ newly\ created\ output\ file\n
+comment2.params=w\ line
+comment2.target=boolean\ addEntry(java.lang.String,\ java.lang.Integer)
+comment2.text=\n\ Adds\ the\ word\ and\ its\ line\ to\ the\ respective\ data\ structure\ being\ used\n\ \n\ @param\ line\ Integer\n\ @param\ w\ String\n
+comment3.params=fileName
+comment3.target=void\ readFile(java.lang.String)
+comment3.text=\n\ Reads\ the\ file\ provided,\ splits\ the\ lines\ into\ words,\ and\ has\ each\ word\ added\ to\ the\ data\ structure\n\ \n\ @param\ fileName\ String\n
+comment4.params=
+comment4.target=void\ createDictionary()
+comment4.text=\n\ Reads\ the\ provided\ dictionary\ file\ and\ creates\ a\ dictionary\ ArrayList\ to\ be\ used\ to\ check\ if\ a\ word\ is\ valid\n
+comment5.params=w
+comment5.target=boolean\ isWordInDictionary(java.lang.String)
+comment5.text=\n\ Performs\ a\ binary\ search\ to\ check\ whether\ the\ word\ being\ looked\ at\ is\ in\ the\ dictionary\ or\ not\n\ \n\ @param\ w\ String\n
+numComments=6

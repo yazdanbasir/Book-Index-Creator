@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=HashIndex
+comment0.text=\n\ Creates\ the\ book\ index\ using\ a\ HashMap\ as\ the\ main\ data\ structure\n\ Overrides\ the\ createOutputFile()\ and\ addEntry()\ methods\n\ Uses\ the\ readFile()\ method\ from\ the\ abstract\ class\n\n\ @author\ Yazdan\ Basir\n
+comment1.params=
+comment1.target=HashIndex()
+comment1.text=\n\ Constructor\ for\ the\ HashIndex\ class\n
+comment2.params=
+comment2.target=void\ createOutputFile()
+comment2.text=\n\ Creates\ a\ new\ output\ file,\ acccesses\ the\ elements\ in\ the\ sorted\ ArrayList,\ writes\ them\ to\ the\ file\n
+comment3.params=w\ line
+comment3.target=boolean\ addEntry(java.lang.String,\ java.lang.Integer)
+comment3.text=\n\ Adds\ each\ word\ and\ line\ number\ to\ the\ HashMap\n\ First\ checks\ whether\ the\ word\ is\ in\ the\ Dictionary\n\ Then\ checks\ whether\ the\ word\ is\ already\ present\ in\ the\ HashMap\n\ \n\ @param\ w\ String\n\ @param\ line\ Integer\n
+comment4.params=
+comment4.target=void\ sort()
+comment4.text=\n\ Creates\ a\ Set\ from\ the\ keySet\ of\ the\ HashMap\n\ Adds\ everything\ to\ an\ ArrayList\ and\ sorts\ the\ ArrayList\n
+numComments=5

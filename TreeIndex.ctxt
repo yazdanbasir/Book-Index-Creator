@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TreeIndex
+comment0.text=\n\ Creates\ a\ book\ index\ using\ a\ TreeMap\ as\ the\ main\ data\ structure\n\ Overrides\ the\ createOutputFile()\ and\ addEntry()\ methods\n\ Uses\ the\ readFile()\ method\ from\ the\ abstract\ class\n\ \n\ @author\ Yazdan\ Basir\n
+comment1.params=
+comment1.target=TreeIndex()
+comment1.text=\n\ Constructor\ for\ the\ TreeIndex\ class\n
+comment2.params=
+comment2.target=void\ createOutputFile()
+comment2.text=\n\ Iterates\ through\ the\ TreeMap\ and\ prints\ each\ element\ to\ an\ output\ file\n
+comment3.params=w\ line
+comment3.target=boolean\ addEntry(java.lang.String,\ java.lang.Integer)
+comment3.text=\n\ Adds\ each\ word\ and\ line\ to\ the\ TreeMap\n\ \n\ @param\ w\ String\n\ @param\ line\ Integer\n
+numComments=4

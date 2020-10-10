@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=HashIndexTest
+comment0.text=\n\ The\ test\ class\ HashIndexTest.\n\n\ @author\ Yazdan\ Basir\n
+comment1.params=
+comment1.target=HashIndexTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ ListIndexTest\n
+comment10.params=
+comment10.target=void\ tearDown()
+comment10.text=\n\ Tears\ down\ the\ test\ fixture.\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ addEntryTreeTest1()
+comment4.params=
+comment4.target=void\ addEntryTreeTest2()
+comment5.params=
+comment5.target=void\ addEntryTreeTest3()
+comment6.params=
+comment6.target=void\ addEntryTreeTest4()
+comment7.params=
+comment7.target=void\ isWordInDictionaryTreeTest1()
+comment8.params=
+comment8.target=void\ isWordInDictionaryTreeTest2()
+comment9.params=
+comment9.target=void\ sortTest()
+numComments=11
